@@ -73,7 +73,7 @@ for i in start: # iterating over the pages
     for movie in parser.find_all(class_ = "lister-item mode-advanced"):
         #take the informations you want
 ```
-I scrape a lot of informations, so it's a long part - about 3 hours.
+I scraped a lot of informations, so it's a long part - about 3 hours.
 
 # SQLite
 **[SQLite](https://www.sqlite.org/index.html)** is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day. A useful tool to easily visualize and interact with a SQLite database is [DB Browser for SQLite](https://sqlitebrowser.org). A database allows us to easily navigate throw the data and study them. The separate tables avoid duplicate rows in the main table

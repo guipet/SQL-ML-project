@@ -10,9 +10,9 @@ The project is in three parts :
 
 # Webscraping
 
-The goal is to collect the data of the 10 000 most popular movies. If the movie is not rated, we will not include it because the grade is stricly necessary for our project since it is the target.   
+The goal is to collect the data of the 10 000 most popular movies. If the movie is not rated, we will not include it because the grade is necessary for our project since it is the target.   
 
-The data are collected on this [link](https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-12-31&start=1) from the first page to the 10000th page, with the package **[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)**. This are the commons step the webscrape with **BeautifulSoup**:
+The data are collected on this [link](https://www.imdb.com/search/title/?title_type=feature&release_date=2000-01-01,2020-12-31&start=1) from the first page to the 200th page, with the package **[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)**. This are the commons step the webscrape with **BeautifulSoup**:
 * Get the url with the function `get`
 * Parse the HTML file with `BeautifulSoup` with the type of parsor. 
 * Detect the `tag`, `CSS`, `class`... of the HTML file to get the informations inside. 

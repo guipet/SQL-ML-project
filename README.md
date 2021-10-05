@@ -1,5 +1,5 @@
 # Webscraping-SQL-ML-project
-In this requisitory, We are going to web scrape informations about movies on IMDB - like the length, the title, the categoty - and create a database with SQLite, which is the easiest way for a local project. Then, we will do a small use case by trying to predict the grade of movies with the collected features. 
+In this requisitory, We are going to web scrape informations about movies on IMDB - like the length, the title, the category - and create a database with SQLite, which is the easiest way for a local project. Then, we will do a small use case by trying to predict the grade of movies with the collected features. 
 
 The programm is not intended to be executed since it is just a little project, just showing a complete work - from collecting the data to a ML approach. So, the support will be in Jupyter Notebook, easier to read and with explanations all along. 
 
